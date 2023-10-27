@@ -1,0 +1,28 @@
+body{
+    height:100vh;
+}
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.main{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+h1,h3,button{
+    text-align: center;
+}
+input{
+    padding: 10px;
+}
+.main div{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 10px 50px;
+}
